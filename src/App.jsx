@@ -57,7 +57,7 @@ const [userData, setUserData] = useState({
             }
           />
           <input
-            type="text"
+            type="text" 
             value={userData.lastName}
             onChange={(e) =>
               setUserData({ ...userData, lastName: e.target.value })
