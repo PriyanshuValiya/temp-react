@@ -46,7 +46,7 @@ const [userData, setUserData] = useState({
     <>
       <div>
         <h1>
-          Wellcome, Mr. {userData.firstName} {userData.lastName}
+          Wellcome, {userData.firstName} {userData.lastName}
         </h1>
         <div>
           <input
