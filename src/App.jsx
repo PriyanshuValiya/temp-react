@@ -72,7 +72,7 @@ const [userData, setUserData] = useState({
 
       <br />
       <div>
-        <h2>Feedback Panel</h2>
+        <h2>Latest Feedback Panel</h2>
         <p>Total Feedback: {totalFeedback}</p>
 
         <div className="group">
