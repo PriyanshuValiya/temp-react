@@ -77,7 +77,7 @@ const [userData, setUserData] = useState({
 
         <div className="group">
         <p>Excellent: {votes.excellent}</p>
-        <p>Goood: {votes.good}</p>
+        <p>Good: {votes.good}</p>
         <p>Average: {votes.average}</p>
         <p>Poor: {votes.poor}</p>
         </div>
