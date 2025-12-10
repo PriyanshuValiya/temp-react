@@ -46,7 +46,7 @@ const [userData, setUserData] = useState({
     <>
       <div>
         <h1>
-          Wellcome, {userData.firstName} {userData.lastName} 
+          Hello Hyy, {userData.firstName} {userData.lastName}
         </h1>
         <div>
           <input
@@ -72,7 +72,7 @@ const [userData, setUserData] = useState({
 
       <br />
       <div>
-        <h2>Feedback Panel</h2>
+        <h2>Latest Feedback Panel</h2>
         <p>Total Feedback: {totalFeedback}</p>
 
         <div className="group">
