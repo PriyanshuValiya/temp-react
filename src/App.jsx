@@ -67,7 +67,7 @@ const [userData, setUserData] = useState({
       </div>
 
       <div>
-        <p>Current time hello: {currentTime.toLocaleString()}</p>
+        <p>Current time: {currentTime.toLocaleString()}</p>
       </div>
 
       <br />
