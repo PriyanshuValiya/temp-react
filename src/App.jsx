@@ -8,7 +8,7 @@ const [userData, setUserData] = useState({
 });
 
   const [votes, setVotes] = useState({
-    excellent: 0,
+    excellent: 1,
     good: 0,
     average: 0, 
     poor: 0,
